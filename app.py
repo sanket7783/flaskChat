@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 from firebase_admin import firestore
 
-key = "1313288692:AAG3k3FYeJIOCh7XgVkDmtDQ6v3yQM32t_0"
+key = "bot_token"
 app = Flask(__name__)
 
 db = firestore.Client()
